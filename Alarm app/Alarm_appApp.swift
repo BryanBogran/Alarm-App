@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+
 struct Alarm_appApp: App {
     var body: some Scene {
         WindowGroup {
