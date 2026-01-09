@@ -18,7 +18,7 @@ struct Alarm: Identifiable {
     var vibrationEnabled: Bool = false
     var color: Color = .blue
     var customMessage: String = "Time to wake up!"
-    var verificationTask: VerificationTask
+    //var verificationTask: VerificationTask
     
     // (E) Favorite (Starred) Pinned to the top
     var isFavorite: Bool = false
