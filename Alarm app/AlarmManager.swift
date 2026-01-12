@@ -43,7 +43,6 @@ class AlarmManager: ObservableObject {
     // Duplicate an existing alarm
     func duplicateAlarm(_ alarm: Alarm) {
         var newAlarm = alarm
-        newAlarm.isFavorite = false // reset favorite for the duplicate
         newAlarm.label += "Copy"
         newAlarm.isEnabled = false // duplicate is disabled by default
         alarms.append(newAlarm)

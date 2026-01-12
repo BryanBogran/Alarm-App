@@ -20,8 +20,6 @@ struct Alarm: Identifiable {
     var customMessage: String = "Time to wake up!"
     //var verificationTask: VerificationTask
     
-    // (E) Favorite (Starred) Pinned to the top
-    var isFavorite: Bool = false
     
     enum Weekday: String, CaseIterable, Identifiable {
         var id: String { self.rawValue }
