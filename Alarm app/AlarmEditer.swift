@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class AlarmManager: ObservableObject {
+class AlarmEditer: ObservableObject {
     @Published var alarms: [Alarm] = []
     
     // add a new alarm with default settings
